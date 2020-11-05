@@ -1,0 +1,58 @@
+body{
+  background-color: #4dd9fd;
+}
+@-webkit-keyframes spin{
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin{
+  from{
+    -moz-transform: rotate(0deg);
+  }
+  to{
+    -moz-transform: rotate(360deg);
+  }
+}
+img{
+  max-width: 50%;
+  height: auto;
+  border-radius: 100%;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 26s;
+  animation-play-state: running;
+}
+#IMG-20201005-WA0012{
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 26s;
+  animation-play-state: running;
+  
+  -webkit-animation-name: spin;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 26s;
+  -webkit-animation-play-state: running;
+  
+  -moz-animation-name: spin;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -moz-animation-duration: 26s;
+  -moz-animation-play-state: running;
+}
+h3{
+  font-family: Times New Roman;
+  font-style: italic;
+  color: red;
+}
+h4{
+  font-family: Times New Roman;
+  font-style: italic;
+  color: white;
+}
